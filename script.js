@@ -7,6 +7,7 @@ secondBurger.weight = 500;
 
 console.log(hamburger.name); // Double Cheese Burger
 console.log(secondBurger.name ); // Double Cheese Burger
+//abbiamo un solo oggetto, quando modifichiamo uno dei due verrà modificato anche l'altro
 
 //SNACK 2
 
@@ -21,6 +22,7 @@ secondBurger.ingredients[0] = "Salad";
 
 console.log(hamburger.ingredients[0]); // Salad
 console.log(secondBurger.ingredients[0]); // Salad
+//abbiamo avremo 2 oggetti ma la differenza sarà che la nostra shallow copy avrà come array il riferimento all'array del primo oggetto
 
 //SNACK 3
 
