@@ -44,7 +44,7 @@ const secondBurger = structuredClone(hamburger);
 const thirdBurger = structuredClone(hamburger);
 
 //dato lo structuredClone, sono stati creati 3 oggetti ognuno con una sua struttura anche se complessa, 
-// l'unica cosa che non riesce a copiare, essendo una deep copy, sono le funzioni che in questo caso non abbiamo
+//l'unica cosa che non riesce a copiare, essendo una deep copy, sono le funzioni che in questo caso non abbiamo
 
 //SNACK 4
 
@@ -57,7 +57,7 @@ const chef = {
 }
 
 //per l'oggetto chef sarebbe meglio utilizzare lo spread operetor data la funzione contenuta come proprietà di un oggetto
-// quindi basterebbe: const secondChef = (...chef);
+// quindi basterebbe: const secondChef = {...chef};
 
 const restaurant = {
 	name: "Hyur's Burgers",
